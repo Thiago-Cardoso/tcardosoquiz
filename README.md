@@ -36,6 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
 You must have installed on your machine:
 
 - Node
+- Yarn
 - NPM
 
 ### Installing
@@ -53,13 +54,27 @@ $ sudo apt-get install -y nodejs
 
 ```
 
+Second step is to install the yarn:
+
+```bash
+# Using Ubuntu
+$ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt update
+sudo apt install yarn
+
+```
+
 For test if the service was installed with succeed, you can run the command for to check de version of Node:
 
 ```bash
 $ node -v
-# Must be have the node version: v12.17.0
+# Must be have the node version: v14.15.1
 $ npm -v
-# Must be have the npm version: 6.14.4
+# Must be have the npm version: 6.14.8
+$ yarn -v
+# Must be have the npm version: 1.22.5
 ```
 
 ## First steps
