@@ -19,7 +19,9 @@
 
 - **ReactJS**
 - **NodeJS**
-- **Styled-components.**
+- **Styled-components**
+- **Framer-motion**
+- **React-lottie**
 - **Next.JS**
 
 ## Features
